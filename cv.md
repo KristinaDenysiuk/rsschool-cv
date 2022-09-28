@@ -1,6 +1,6 @@
 # **Kristina Denysiuk**
+------
 
-________________
 ### **Junior Frontend Developer**
 
 ------
