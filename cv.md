@@ -32,6 +32,7 @@ let calculator = {
      mul: function () {
     } = a * b;
  };
+ 
  let a = +prompt('number?','');
  let b = +prompt('number?','');
 
