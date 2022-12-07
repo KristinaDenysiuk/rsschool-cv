@@ -1,10 +1,142 @@
-/*h1 {*/
-/*    font-size: 60px;*/
-/*    text-align: center;*/
-/*}*/
 
-/*p, li {*/
-/*    font-size: 16px;*/
-/*    line-height: 2;*/
-/*    letter-spacing: 1px;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    background: #F9F9F9; /*#EDE4E0;*/
+    color: #1B2430;
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+.avatar {
+    width: 200px;
+    border-radius: 70px ;
+    box-shadow: 4px 4px 14px lightslategray;
+}
+.avatar_container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.avatar_container{
+    position: relative;
+    width: 40%;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #F9F9F9;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.text {
+    white-space: nowrap;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: revert;
+}
+
+.header{
+    display: flex;
+    width: 70%;
+
+}
+.header-right {
+    margin-left: 40px;
+    padding-top: 100px;
+}
+.header-right span{
+    color: #EC994B;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 750px;
+}
+
+.info {
+    background: #FCDDB0;
+    padding: 5px 5px 20px 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    list-style: none;
+}
+.info li{
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.column {
+    padding: 5px 5px 20px 20px;
+    background: #BAD1C2;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.column li{
+    margin-bottom: 10px;
+
+}
+
+.bg-yellow{
+    background: #FCDDB0;
+}
+
+@media (max-width: 700px) {
+    .info{
+        display: block;
+    }
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.foot_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#rs-logo{
+    height: 30px;
+    width: 60px;
+}
+#git-logo{
+    height: 35px;
+    width: 35px;
+}
+
+
+
