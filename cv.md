@@ -7,7 +7,7 @@
 
 #### **Contact information:** 
 <dd> Phone: +38 068 5259 221 </dd>
-<dd> E-mail: kristinadenysiuk@mail.com </dd>
+<dd> E-mail: kristinadenysiuk98@gmail.com </dd>
 <dd> Telegram: @kristinadenysiuk </dd>
 
 ------
