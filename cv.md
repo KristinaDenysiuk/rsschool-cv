@@ -10,11 +10,6 @@
 <dd> E-mail: kristinadenysiuk98@gmail.com </dd>
 <dd> Telegram: @kristinadenysiuk </dd>
 
-------
-### **Briefly about myself :**
-
-For 5 years, I worked in the field of clothing sales management, online and offline store network. I became interested in the field of IT precisely because, I want to develop. I am very interested in this area.
-
 ----
 ### **Skills and Proficiency:**
 
